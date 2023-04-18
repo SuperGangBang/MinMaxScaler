@@ -1,0 +1,3 @@
+def scaler(x):
+    scaler = MinMaxScaler()
+    return (scaler.fit_transform(x))
